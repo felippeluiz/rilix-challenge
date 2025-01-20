@@ -8,7 +8,7 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -140,7 +140,8 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 4d8a10e23cf56f2499a4d99e37bd195b, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -810,6 +811,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
+    Android: DREAMTECK_SPLINES
     Standalone: DREAMTECK_SPLINES
   additionalCompilerArguments: {}
   platformArchitecture: {}
@@ -844,7 +846,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: RilixHalloweenChallenge
-  metroPackageVersion: 
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -852,7 +854,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: RilixHalloweenChallenge
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: RilixHalloweenChallenge
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
