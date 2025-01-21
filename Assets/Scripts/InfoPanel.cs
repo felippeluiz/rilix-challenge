@@ -19,6 +19,8 @@ namespace RilixHalloweenChallenge
             velocity.text = $"Velocidade: {splineFollower.followSpeed:F0}Km/H";
             progress.text = $"Progresso: {splineFollower.result.percent * 100:F1}%";
             time.text = $"Horário: {Mathf.Lerp(17, 24, (float)splineFollower.result.percent):F0}H";
+
+            if(splineFollower.result.percent>=1) velocity.text = $"Velocidade: 0 Km/H";
         }
     }
 }
